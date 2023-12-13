@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "cross-env NODE_ENV=product PORT=3008 pm2 start server.js -i 0 --name dinamic_subdomain(3008)",
+    "start": "cross-env NODE_ENV=product PORT=3008 pm2 start server.js -i 0 --name dinamic_subdomain_3008",
     "dev": "nodemon server"
   },
   "author": "",
